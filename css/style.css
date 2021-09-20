@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  :root {
+    --mobile-margin-left: 3rem;
+    --button-shadow-default: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    --button-shadow-hover: 0px 8px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  body {
+    font-size: 1.6rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  h1 {
+    font-size: 4.8rem;
+  }
+  
+  h2 {
+    font-size: 3.6rem;
+  }
+  
+  .oldal-logo,
+  .nav-item__link {
+    text-decoration: none;
+    color: rgb(119, 117, 117);
+  }
+  
+  .nav-item__link.active {
+    color: black;
+    font-weight: 700;
+  }
+  
+  .oldal-logo {
+    font-size: 3rem;
+    margin-left: var(--mobile-margin-left);
+    margin-right: 2rem;
+  }
+  
+  .main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main-navigation__menu {
+    display: flex;
+    margin-right: 30px;
+  }
+  
+  .nav-item {
+    margin: 30px;
+    font-size: 2rem;
+  }
+  
+  .banner-container {
+    padding: 2rem 0 2rem var(--mobile-margin-left);
+    background-color: lightgrey;
+  }
+  
+  .banner-container__titles {
+    margin: 1rem 0 2rem 0;
+  }
+  
+  .btn {
+    width: 15rem;
+    height: 4.5rem;
+    font-size: 1.4rem;
+    border: none;
+    box-shadow: var(--button-shadow-default);
+    margin: 1rem 1.5rem 1rem 0;
+    border-radius: 0.8rem;
+  }
+  
+  .btn:hover {
+    box-shadow: var(--button-shadow-hover);
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #111111;
+    color: whitesmoke;
+    letter-spacing: 1px;
+  }
+  
+  .about-container {
+    margin: var(--mobile-margin-left);
+    text-align: center;
+    border: 3px solid black;
+    padding: 1rem;
+    border-radius: 1.5rem;
+  }
+  
+  .about-container p {
+    text-align: left;
+    margin: 1rem 10vw;
+  }
+  
+  .profile-photo {
+    border-radius: 50%;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.8);
+    margin-top: 1.5rem;
+  }
+  
+  .media-ikonok {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+  }
+  
+  .media-ikon {
+    font-size: 3.2rem;
+    padding: 0 1.6rem;
+  }
+  
+  .media-ikon__link {
+    color: black;
+  }
+  
